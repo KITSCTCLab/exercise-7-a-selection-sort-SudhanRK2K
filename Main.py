@@ -2,9 +2,9 @@ from typing import List
 
 def selectionSort(array, size) -> List[int]:
   # Write your code here
-  for i in range(0,size):
+  for i in range(0,size-2):
     j=i
-    for j in range(i+1,size-2):
+    for j in range(i+1,size-1):
       if array[i] < array[j]:
         j=1
     (array[i],array[j]) = (array[j],array[i])
