@@ -16,5 +16,5 @@ for item in input_data.split(', '):
     data.append(int(item))
   elif item.lstrip("-").isnumeric():
     data.append(int(item))
-selectionSort(data, len(data)))
+selectionSort(data, len(data))
 print(data)
