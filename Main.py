@@ -8,7 +8,6 @@ def selectionSort(array, size) -> List[int]:
       if array[i] < array[j]:
         j=1
     (array[i],array[j]) = (array[j],array[i])
-
 # Do not change the following code
 input_data = input()
 data = []
